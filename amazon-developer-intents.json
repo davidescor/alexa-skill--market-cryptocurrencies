@@ -1,0 +1,541 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mercado de criptomonedas",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "listCrypto",
+                    "slots": [],
+                    "samples": [
+                        "cinco con más valor",
+                        "las cinco critpomonedas con más valor"
+                    ]
+                },
+                {
+                    "name": "individualCrypto",
+                    "slots": [
+                        {
+                            "name": "cryptocurrencies",
+                            "type": "cryptocurrencies"
+                        }
+                    ],
+                    "samples": [
+                        "cuanto vale {cryptocurrencies}",
+                        "quiero saber el precio de {cryptocurrencies}",
+                        "precio de {cryptocurrencies}",
+                        "{cryptocurrencies}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "cryptocurrencies",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "bitcoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OKB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Golem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Waltonchain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GXChain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Metaverse ETP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ren"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Steem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Status"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ardor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aeternity"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flexacoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zilliqa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NEXT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wixlar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RIF Token"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Atlas Protocol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MaidSafeCoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Qubitica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bitbook Gambling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "egretia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beldex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Quant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Verge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Siacoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clipper Coin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bytom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nash Exchange"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EDUCare"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Karatgold Coin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MonaCoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Komodo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ETERNAL TOKEN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pundi X"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IOST"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aurora"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HyperCash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lambda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mixin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Augur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bytecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "0x"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DigiByte"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BitShares"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ICON"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "THETA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Holo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oasis City"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Insight Chain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Energi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Waves"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BitTorrent"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "KuCoin Shares"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lisk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Algorand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ravencoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ThoreCoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PLATINCOIN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OmiseGO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paxos Standard Token"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TrueUSD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Huobi Token"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HedgeTrade"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Basic Attention Token"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Qtum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "VeChain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Decred"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dogecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "V Systems"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "INO COIN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zcash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crypto.com Chain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ontology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "USD Coin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NEM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cosmos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NEO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chainlink"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IOTA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tezos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ethereum Classic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TRON"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UNUS SED LEO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cardano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stellar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Monero"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EOS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tether"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Binance Coin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Litecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "XRP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ethereum"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
