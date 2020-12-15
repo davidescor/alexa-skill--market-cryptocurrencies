@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://davidespier.com/github/crypto-alexa/51Khy9IEHZL.png" weight="200" width="200">
+  <img src="https://ibb.co/h2ST7sH" weight="200" width="200">
 </p>
 
 
