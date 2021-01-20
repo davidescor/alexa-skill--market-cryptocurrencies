@@ -18,8 +18,6 @@ Skiil for alexa, lets you know the price of each cryptocurrency
 
 2. Create Lambda -> function and copy 'Lambda/index.js' in your function.
 
-3. Add 'Lambda/frase.json' or create new document in project in lambda and copy file.
-
 
 ## Amazon store
 
